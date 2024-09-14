@@ -1,0 +1,13 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>aws</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+
+  <ion-input [(ngModel)]="nombre" placeholder="ingrese nombre"></ion-input>
+  <ion-input [(ngModel)]="email"  placeholder="ingrese email"></ion-input>
+  <ion-button (click)="postCliente()">Agregar Cliente</ion-button>
+
+</ion-content>
